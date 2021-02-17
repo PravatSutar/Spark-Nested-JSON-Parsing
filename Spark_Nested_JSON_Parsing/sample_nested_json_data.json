@@ -1,0 +1,127 @@
+[{
+		"_id": "application-00",
+		"statusId": 4,
+		"statusDescription": "Rejected",
+		"statusUpdatedDate": "2018-09-27T16:09:55.433",
+		"createdBy": "7ec74944-b6b8-42fa-970e-530c2d763599",
+		"createdOn": "2018-09-27T16:09:55.433",
+		"modifiedBy": "7ec74944-b6b8-42fa-970e-530c2d763599",
+		"modifiedOn": "2020-10-26T17:11:21.723",
+		"isViewed": true,
+		"msfApplicationId": 1234,
+		"jobId": "job iiii",
+		"applicant": {
+			"id": "A-1",
+			"email": "abc@abc.com",
+			"name": "ABC",
+			"mobileNumber": "+65 12312312",
+			"education": [{
+					"name": "",
+					"ssecEqaCode": "91",
+					"ssecFosCode": "1140",
+					"isHighest": false,
+					"institution": "ABC"
+				},
+				{
+					"name": "PS",
+					"ssecEqaCode": "11",
+					"ssecFosCode": "1234",
+					"isHighest": false,
+					"institution": "XYZ"
+				},
+				{
+					"name": "pk!",
+					"ssecEqaCode": "XX",
+					"ssecFosCode": "1234",
+					"isHighest": true,
+					"institution": "UCLA"
+				}
+			],
+			"workExperiences": [{
+				"companyName": "ABC LTD",
+				"endDate": "2010-12-01",
+				"jobTitle": "cat cat",
+				"startDate": "2010-01-01",
+				"ssocCode": "111"
+			}],
+			"skills": [{
+				"id": 25,
+				"skill": "A/B Testing"
+			}],
+			"resume": {
+				"id": "12345",
+				"fileName": "cool_resume.pdf",
+				"filePath": "somepath",
+				"lastDownloadedAt": "2018-09-27T16:10:00.000"
+			}
+		},
+		"scores": {
+			"jobkred": 0.111111,
+			"wcc": 0.1111111
+		},
+		"_rev": "87-ddfadsfasfasdfasdfa"
+	},
+	{
+		"_id": "application-01",
+		"statusId": 4,
+		"statusDescription": "Rejected",
+		"statusUpdatedDate": "2018-09-27T16:09:55.433",
+		"createdBy": "7ec74944-b6b8-42fa-970e-530c2d763599",
+		"createdOn": "2018-09-27T16:09:55.433",
+		"modifiedBy": "7ec74944-b6b8-42fa-970e-530c2d763599",
+		"modifiedOn": "2020-10-26T17:11:21.737",
+		"isViewed": true,
+		"msfApplicationId": 1234,
+		"jobId": "job uuid",
+		"applicant": {
+			"id": "A-1",
+			"email": "abc@example.com",
+			"name": "P Kumar",
+			"mobileNumber": "+65 11111 1111",
+			"education": [{
+					"name": "",
+					"ssecEqaCode": "11",
+					"ssecFosCode": "1111",
+					"isHighest": false,
+					"institution": "pmp"
+				},
+				{
+					"name": "hi there",
+					"ssecEqaCode": "70",
+					"ssecFosCode": "0000",
+					"isHighest": false,
+					"institution": "UCLA"
+				},
+				{
+					"name": "hello!",
+					"ssecEqaCode": "11",
+					"ssecFosCode": "1111",
+					"isHighest": true,
+					"institution": "abc"
+				}
+			],
+			"workExperiences": [{
+				"companyName": "xyz LTD",
+				"endDate": "2010-12-01",
+				"jobTitle": "Cat Dog",
+				"startDate": "2010-01-01",
+				"ssocCode": "222"
+			}],
+			"skills": [{
+				"id": 25,
+				"skill": "A/B Testing"
+			}],
+			"resume": {
+				"id": "222333",
+				"fileName": "cool_resume.pdf",
+				"filePath": "somepath",
+				"lastDownloadedAt": "2018-09-27T16:10:00.000"
+			}
+		},
+		"scores": {
+			"jobkred": 0.9999000,
+			"wcc": 0.999009987
+		},
+		"_rev": "87-dfadsfafafasdfas"
+	}
+]
